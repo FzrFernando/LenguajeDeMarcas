@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ejercicio 5</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>Provincia</p>
+            <select name="menu1">
+                <option value="0">-selecciona-</option>
+                <option value="1">Sevilla</option>
+                <option value="2">Granada</option>
+                <option value="3">Córdoba</option>
+                <option value="4">Cádiz</option>
+                <option value="5">Jaén</option>
+                <option value="6">Almería</option>
+                <option value="7">Huelva</option>
+                <option value="8">Málaga</option>
+            </select>
+
+            <p>Fecha de nacimiento</p>
+            <input type="number" max="31" min="1"> de <select name="mes">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            de <input type="number" maxlength="4" max="2021" min="1940">
+
+            <br>
+
+            <p>Temas de interés</p>
+            <select name="temas" size="4">
+                <option value="1">Administración de bases de datos</option>
+                <option value="2">Análisis y programación</option>
+                <option value="3">Arquitectura</option>
+                <option value="4">Calidad</option>
+                <option value="5">ERP, CRM, Business Intelligence</option>
+            </select>
+        </fieldset>
+    </body>
+</html>

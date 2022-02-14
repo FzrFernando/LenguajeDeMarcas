@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulario</title>
+    </head>
+    <body bgcolor="PapayaWhip">
+        <font face="Arial" size="5">
+            <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get">
+                <p>Nombre: <input type="text" name="nombre" placeholder="Escriba aquí su nombre" required></p>
+                <p>Apellidos: <input type="text" name="apellidos" size="40" placeholder="Escriba aquí sus apellidos" required></p>
+                <p>Sexo:
+                    <input type="radio" name="sexo" value="h" required> Hombre
+                    <input type="radio" name="sexo" value="m" required> Mujer
+                </p>
+                Fecha de nacimiento: <input type="date" name="fecha" required>
+                <p>Dirección: <input type="text" name="direccion" size="50" placeholder="Escriba aquí su dirección"></p>
+                <p>Teléfono: <input type="number" maxlength="9"></p>
+                <p>Correo Electrónico: <input type="email" name="correo"></p>
+                <p>Nacionalidad:
+                    <input type="radio" name="nacionalidad" value="es" required> Español
+                    <input type="radio" name="nacionalidad" value="ex" required> Extranjero
+                </p>
+                <p>Años de Experiencia: <input type="number" name="numero"></p> 
+                Nivel de estudio máximo: <select name="estudios">
+                    <option>ESO</option>
+                    <option>Bachiller</option>
+                    <option>FPGM</option>
+                    <option>FPGS</option>
+                    <option>Carrera</option>
+                </select>
+                <br><br>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
+            </form>
+        </font>
+    </body>
+</html>
