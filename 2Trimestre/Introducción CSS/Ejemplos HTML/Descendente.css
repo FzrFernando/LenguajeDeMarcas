@@ -1,0 +1,8 @@
+p span{
+    color: coral;
+}
+
+p h1 span{
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
